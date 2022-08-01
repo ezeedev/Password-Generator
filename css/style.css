@@ -1,0 +1,57 @@
+:root {
+    --purple: #301e3f;
+    --lg-purple: #4c4370;
+    --blue: #387abc;
+    --lg-blue: #71c1df;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: var(--white);
+    background-color: var(--purple);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    background-color: var(--lg-blue);
+    border-radius: 2em 0 2em 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background .2s ease-in;
+}
+
+.btn:hover {
+    background-color: var(--blue);
+}
+
+.password__text {
+    padding: .6em 2em;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: var(--lg-purple);
+    background-color: var(--white);
+}
